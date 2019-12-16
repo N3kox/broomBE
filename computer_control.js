@@ -1,6 +1,6 @@
 var WebSocket = require('ws');
 var localUrl = "ws://localhost:83";
-var serverUrl = "wss://bzpnb.xyz:8080";
+var serverUrl = "wss://";//your server address
 var robot = require("robotjs");
 robot.setMouseDelay(2);
 var screenSize = robot.getScreenSize();
